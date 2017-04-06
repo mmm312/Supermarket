@@ -6,7 +6,7 @@
 //  Copyright © 2017 Muhtashim Mannan. All rights reserved.
 //
 
-#include "login.hpp"
+/*#include "login.hpp"
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -43,6 +43,10 @@ void Character::sendPWORD()   //User login // Password from external file
     
 };
 
+string getName();
+string getPWord();
+
+
 int start_menu()  //Intial user interface with login options and registering options
 
 {
@@ -58,6 +62,7 @@ int start_menu()  //Intial user interface with login options and registering opt
     return options;
     
     };
+
 
 
 int main()
@@ -114,8 +119,7 @@ int main()
 
         //if new user create a new username and Password
         if(option == 2)
-        {
-            char_Info.sendNAME();
+        {   char_Info.sendNAME();
             cout << endl;
             char_Info.sendPWORD();
             cout << endl;
@@ -138,4 +142,4 @@ int main()
     
         return 0;
     
-        }
+        }*/

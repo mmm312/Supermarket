@@ -15,14 +15,10 @@ using namespace std;
 
 struct product       // The details of a particular product will be store here
 {
-    char name[100],
-    origin[100],
-    ship_orgin[100];
+    char name[100], origin[100], ship_orgin[100];
+    int quantity, number;
+    double price, discount, tax;
     
-    double price,
-    discount,
-    tax;
-    int quantity;
     
 };
 
@@ -43,8 +39,7 @@ public:
     double getDiscount();
     double tax();
     int getQuantity();
-    
-    
+    int getProduct();
 };
 
 

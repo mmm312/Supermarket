@@ -73,3 +73,7 @@ int product_s::getQuantity()
 {
     return s.quantity;
 }
+int product_s:: getProduct()
+{
+    return s.number;
+}

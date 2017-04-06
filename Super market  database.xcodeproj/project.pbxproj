@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20D4CAD1E91AE8D00E53E86 /* Stext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20D4CAB1E91AE8D00E53E86 /* Stext.cpp */; };
 		B24D0A941E70481400B945D5 /* product_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B24D0A921E70481400B945D5 /* product_info.cpp */; };
 		B24D0A971E70BE6900B945D5 /* login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B24D0A951E70BE6900B945D5 /* login.cpp */; };
 		B27BE1B11E4CD638009EB9CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B27BE1B01E4CD638009EB9CB /* main.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B20D4CAB1E91AE8D00E53E86 /* Stext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stext.cpp; sourceTree = "<group>"; };
+		B20D4CAC1E91AE8D00E53E86 /* Stext.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Stext.hpp; sourceTree = "<group>"; };
 		B24D0A921E70481400B945D5 /* product_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = product_info.cpp; sourceTree = "<group>"; };
 		B24D0A931E70481400B945D5 /* product_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = product_info.hpp; sourceTree = "<group>"; };
 		B24D0A951E70BE6900B945D5 /* login.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = login.cpp; sourceTree = "<group>"; };
@@ -52,6 +55,8 @@
 				B24D0A961E70BE6900B945D5 /* login.hpp */,
 				B24D0A931E70481400B945D5 /* product_info.hpp */,
 				B27BE1B01E4CD638009EB9CB /* main.cpp */,
+				B20D4CAB1E91AE8D00E53E86 /* Stext.cpp */,
+				B20D4CAC1E91AE8D00E53E86 /* Stext.hpp */,
 				B27BE1AF1E4CD638009EB9CB /* Super market  database */,
 				B27BE1AE1E4CD638009EB9CB /* Products */,
 			);
@@ -131,6 +136,7 @@
 			files = (
 				B27BE1B11E4CD638009EB9CB /* main.cpp in Sources */,
 				B24D0A971E70BE6900B945D5 /* login.cpp in Sources */,
+				B20D4CAD1E91AE8D00E53E86 /* Stext.cpp in Sources */,
 				B24D0A941E70481400B945D5 /* product_info.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
